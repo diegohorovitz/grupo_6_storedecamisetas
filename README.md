@@ -12,3 +12,7 @@ https://locademia.racingclub.com.ar/
 https://www.diablosoy.com/
 https://www.tiendariver.com/
 https://www.sporting.com.ar/
+
+
+
+https://trello.com/b/jksfcEGd/digital-house-proyecto-integrador
