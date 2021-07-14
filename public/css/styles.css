@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top-nav-bar{
+    background-color: #131313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    
+}
+.log-in-button{
+    background-color: #F5BF76;
+    color: white;
+}
+.sign-up-button{
+    background-color: #F29C38;
+    color: white;
+}
