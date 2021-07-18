@@ -5,40 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles-index.css">
+    <script src="https://kit.fontawesome.com/bc2c2b800c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
     <title>Store de camisetas</title>
 </head>
 <body>
     <header class="main-header">
         <nav class="top-nav-bar">
-            <img src="" class="logo">
-            <p>BARA DE NAVEGACION</p>
-            <button class="log-in-button">LOG IN</button>
-            <button class="sign-up-button">SING UP</button>
+            <img src="images/logo-store-de-camisetas.svg" class="logo">
+            <input placeholder="  ... encuentra tu camiseta favorita" type="text" name="buscador">
+            <div>
+            <button class="log-in-button">Log In</button>
+            <button class="sign-up-button">Sign Up</button>
+            </div>
         </nav>
+        <a href="#" class="slide-button"><i class="fas fa-angle-double-down"></i></a>
         <nav class="bottom-nav-bar">
             <div class="left-bar">
                 <ul>
-                    <li><a href="#">name</a></li>
-                    <li><a href="#">name</a></li>
-                    <li><a href="#">name</a></li>
-                    <li><a href="#">name</a></li>
-                    <li><a href="#">name</a></li>
-                    <li><a href="#">name</a></li>
+                    <li><a href="#">Argentina</a></li>
+                    <li><a href="#">Europa</a></li>
+                    <li><a href="#">Selecciones</a></li>
+                    <li><a href="#">Clasicas</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="#">Ofertas</a></li>
                 </ul>
             </div>
             <div class="right-bar">
                 <ul>
-                    <li><a href="#">name</a></li>
+                    <li><a href="#">Mis compras</a></li>
+                    <div class="logo-shop"><i class="fas fa-shopping-bag"></i></div>
                 </ul>
             </div>
         </nav>
     </header>
-    <main class="main">
-        <h1 class="main-title">The largest community of shirts ethusiast</h1>
-        <img src="" alt="" class="left-main-image">
-        <img src="" alt="" class="central-main-image">
-        <img src="" alt="" class="right-main-image">
-    </main>
+    <section class="principal">
+        <h1 class="principal-title">¡La comunidad más grande de fanaticos de las camisetas!</h1>
+      <div class="images-articles">
+        <article class="left-article">
+        <img src="images/liga-europa.jpeg" class="left-principal-image">
+        <div>
+         <h3>Camisetas de Europa</h3> 
+         <p>Vivi la pasion del viejo continente, encuentra las camisetas de los equipos mas reconocidos de Europa</p>  
+         <p>#Juventus #Barcelona #Real Madrid #Inter de Milan #Manchester United</p>  
+        </div>
+     </article>
+     <article class="central-article">
+        <img src="images/liga-argentina.jpeg" class="central-principal-image">
+        <div>
+         <h3>Camisetas de Argentina</h3> 
+         <p>Vivi la pasión del fútbol argentino, descubrí las camisetas de los mejoreas equipo de la AFA.</p>  
+         <p>#Independiente #Boca #River #Estudiantes #San Lorenzo #Velez</p>  
+        </div>
+     </article>
+     <article class="right-article">
+        <img src="images/Clasicas.jpeg" class="right-principal-image">
+        <div>
+         <h3>Las mejores casacas de la historia</h3> 
+         <p>Recorre la historia del futbol vistiendo las camisetas que marcaron las hitoria del futbol mundial</p>  
+         <p>#Maradona #Cryuff #Ronaldo #Figo</p>  
+        </div>
+     </article>
+    </div>
+    </section>
+    <section class="medium-section">
+        <h1 class="medium-title">¡Las mejores ligas del mundo en un solo sitio!</h1>
+        <article class="medium-images"> 
+              <img src="images/premier-league.svg" class="medium-image-1">
+              <img src="images/afa.svg" class="medium-image-2">
+              <img src="images/la-liga.svg" class="medium-image-3">
+              <img src="images/serie-a.svg" class="medium-image-4">
+        </article>
+    </section>
 </body>
 </html>
