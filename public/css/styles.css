@@ -1,22 +1,195 @@
-* {
-    margin: 0px;
-    padding: 0px;
+
+*{
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
-.top-nav-bar{
-    background-color: #131313;
+
+.main{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
-    height: 70px;
-    
+    border: black 1px dotted;
 }
-.log-in-button{
-    background-color: #F5BF76;
-    color: white;
+
+.barca{
+    width: 600px;
+    margin-top: 20px;
+    align-items: flex-start;
+    position: absolute;
+    left: 15%;
+    border: dotted 1px black;
 }
-.sign-up-button{
-    background-color: #F29C38;
+
+.descripcion{
+    width: 450px;
+
+    position: relative;
+    left: 950px;
+    top: 20px;
+    line-height: 0.5;
+    border: black 1px dotted;
+}
+
+
+.talles{
+    display: flex;
+}
+
+.circulo {
+	width: 2.7rem;
+	height: 2.7rem;
+	border-radius: 50%;
+	background: #BCC1BC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
+}
+
+.circulo > h2 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.cantidad{
+    display: flex;
+    align-items: center;
+}
+
+.cuadrado{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    background-color: #BCC1BC;
+    color: black;
+    position: relative;
+    left: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    position: relative;
+    left: 30%;
+}
+
+
+.boton {
+    background-color: #38F261;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     color: white;
+    font-style: bold;
+    border-radius: 5px;
+}
+
+.foto{
+    width: 80%;
+    border: solid gray 2px;
+    position: relative;
+    left: 20px;
+}
+
+article{
+    display: block;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+article .foto2{
+    margin: 10px 13px 10px 5px;
+    border: solid gray 1px;
+}
+
+article .foto3{
+    margin: 10px 13px 10px 13px;
+    border: solid gray 1px;
+}
+
+article .foto4{
+    margin: 10px 13px 10px 13px;
+    border: solid gray 1px;
+}
+
+article .foto5{
+    margin: 10px 13px 10px 13px;
+    border: solid gray 1px;
+}
+
+article .foto6{
+    margin: 10px 13px 10px 13px;
+    border: solid gray 1px;
+}
+
+.fas{
+position: relative;
+bottom: 40px;
+}
+
+.recomendaciones{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin-top: 120px;
+    background-color: #646D6D;
+    color: #F29C38 ;
+    font-size:x-large;
+    margin-top: 120px;
+    border: dotted 3px black;
+}
+
+.mascamisetas{
+    display: flex;
+justify-content: space-around;
+margin-top: 80px;
+border: black 2px dotted;
+}
+
+.img{
+    border:grey solid 1px;
+}
+
+.cam1{
+    width: 250px;
+    align-items: flex-start;
+    justify-self: start;
+}
+
+.cam2{
+    width: 250px;
+    align-items: flex-start;
+    justify-self: start;
+}
+
+.cam3{
+    width: 250px;
+    align-items: flex-start;
+    justify-self: start;
+}
+
+.cam4{
+    width: 250px;
+    align-items: flex-start;
+    justify-self: start;
+}
+
+.cam5{
+    width: 250px;
+    align-items: flex-start;
+    justify-self: start;
 }
