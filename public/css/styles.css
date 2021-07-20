@@ -4,6 +4,22 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+.main-header{
+    position: relative;
+    right: 15px;
+}
+
+.botones{
+    display: flex;
+    position: relative;
+    right: 120px;
+}
+
+.logo-shop{
+    position: relative;
+    top: 40px
+}
+
 .main{
     display: flex;
     width: 100%;
