@@ -10,22 +10,22 @@ app.listen (3000, ()=>{
     console.log('Servidor corriendo en el puerto 3000')
 });
 
-app.get('/', (req,res)=>{
+app.get('/index.html', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/index.html'))
 })
 
-app.get('/', (req,res)=>{
+app.get('/login.html', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/login.html'))
 })
 
-app.get('/', (req,res)=>{
+app.get('/productCart.html', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/productCart.html'))
 })
 
-app.get('/', (req,res)=>{
+app.get('/productDetail.html', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/productDetail.html'))
 })
 
-app.get('/', (req,res)=>{
+app.get('/register.html', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/register.html'))
 })
