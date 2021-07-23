@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/stylesCart.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b4c7c597e4.js" crossorigin="anonymous"></script>
+    
+
+        <title>Store de camisetas</title>
+    </head>
+
+    <!-- Carrito de Compras-->
+    <body>
+        <main>
+            <div class="carrito">
+                <div class="titulos">
+                    <div class="title">
+                        <p class="prod">Producto</p>
+                    </div>
+
+                    <ul>
+                        <li>Precio Unitario</li>
+                        <li>Cantidad</li>
+                        <li>Total</li>
+                    </ul>
+
+                </div>
+
+                <div class="producto">
+                    <article>
+                        <img src="images/nike-camiseta-fc-barcelona-21-22.jpg" alt="Barcelona" class="product_img">
+                        <div class="main-article">                
+                            <p class="descripcion">Camiseta Nike-Barcelona Home 2021/2022 + Parche UEFA Champion League - Talle M</p>
+                            <ul>
+                                <li class="price">$ 17.500</li>
+                                <li class="cantidad">1</li>                                  
+                                <li class="subtotal">$ 17.500</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="resumen">
+                <p class= "res-cuenta">Resumen de Compra</p>
+                <p class="cupon">¿Tienes un cupón de descuento?</p>        
+                <form action="/buscar-codigo" method="GET">
+                    <input type="text" name="codigo" placeholder="Ingresar código">        
+                </form>
+                <div class="subtotal">
+                    <p>Subtotal</p>
+                    <p>$ 17.500,00</p>
+                </div>
+                <div class="descuento">
+                    <p>Descuento</p>
+                    <p>$ 0,00</p>
+                </div>
+                <div class="total">
+                    <p>Total:</p>
+                    <p>$ 17.500,00</p>
+                </div>
+                <button type="submit" class="button">Continuar</button>
+            </div>
+        </main>
+
+    <!-- Footer -->
+
+        <footer>
+            <div class="footer-superior">
+                <div class="logo">
+                    <img src="images/logo-fútbol.jpg" alt="Logo" class="logo_img">
+                </div>
+
+                <div class="footer-derecha">
+                    <div class="listas-footer">
+                        <div class= "mobile">
+                            <p>Mobile app</p>
+                            <ul>
+                                <li>Features</li>
+                                <li>Live share</li>
+                                <li>Video record</li>
+                            </ul>
+                        </div>
+                        <div class= "community">
+                            <p>Community</p>
+                            <ul>
+                                <li>Featured artists</li>
+                                <li>The Portal</li>
+                                <li>Live events</li>
+                            </ul>
+                        </div>
+                        <div class= "company">
+                            <p>Company</p>
+                            <ul>
+                                <li>About us</li>
+                                <li>Contact us</li>
+                                <li>History</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>            
+                <div class="register">
+                    <button type="submit" class="button-log">Log In</button>
+                    <button type="submit" class="button-sing">Sign Up</button>
+                </div>                
+            </div>
+
+            <div class="footer-inferior">
+                <p>© Photo, Inc. 2019. We love our users!</p>
+                <div class="social">
+                    <p>Follow us:</p>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="far fa-envelope"></i>
+                </div>
+            </div>
+                
+        </footer>
+
+    </body>    
+
+</html>
