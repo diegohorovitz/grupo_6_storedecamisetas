@@ -213,3 +213,8 @@ margin-top: 50px;
 .logo_img{
     width: 30%;
 }
+
+.register{
+    position: relative;
+    right: 5%;
+}

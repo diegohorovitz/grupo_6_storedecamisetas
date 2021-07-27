@@ -2,7 +2,7 @@
 .main-header{
     background-color: #131313;
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
+    width: 100%;
     border: solid violet 3px;
 }
 .top-nav-bar{
